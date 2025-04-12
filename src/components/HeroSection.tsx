@@ -1,7 +1,7 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { useIsMobile } from "@/hooks/use-mobile";
+import notificationImage from "@/assests/images/notification.png";
 
 const HeroSection = () => {
   const isMobile = useIsMobile();
@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
         </div>
         
-        <div className="rounded-lg overflow-hidden border border-gray-200 shadow-lg mx-auto">
+        {/* <div className="rounded-lg overflow-hidden border border-gray-200 shadow-lg mx-auto">
           <div className="bg-gray-100 p-2 flex items-center">
             <div className="flex space-x-1.5">
               <div className="w-3 h-3 rounded-full bg-red-500"></div>
@@ -128,8 +128,13 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
+      <img 
+        src={notificationImage}
+        alt="Notification Image" 
+        className="w-full mt-8"
+      />
     </section>
   );
 };

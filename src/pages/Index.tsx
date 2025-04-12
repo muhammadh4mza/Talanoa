@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
@@ -12,8 +11,12 @@ const Index = () => {
         <HeroSection />
       </main>
       {/* <Footer /> */}
+      <img 
+        src="E:\Talanoa\public\ " 
+        alt="Descriptive Alt Text" 
+        className="w-full mt-4" 
+      />
     </div>
-    
   );
 };
 

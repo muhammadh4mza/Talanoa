@@ -34,7 +34,7 @@ const HeroSection = () => {
             Cut the noise, focus only on what matters.
           </p>
           <div className="mt-8 md:mt-10 flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="bg-black text-white hover:bg-gray-800 rounded-full text-base px-8 py-6">
+            <Button className="bg-black text-white hover:bg-gray-800 rounded-lg text-base px-8 py-6">
               Get Started
             </Button>
             <div className="flex items-center">

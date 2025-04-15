@@ -15,14 +15,7 @@ const HeroSection = () => {
             Unbox your new Inbox
           </h1>
           <h3 className="text-[36px] font-bold mb-6 md:max-w-3xl">
-            {/* <RotatingText 
-              texts={["Clutter free", "Clutter free", "Clutter free"]}
-              transition={{ type: "spring", damping: 20 }}
-              auto={true}
-              rotationInterval={3000}
-              splitBy="words"
-              mainClassName="inline-flex items-center px-2 sm:px-2 md:px-3 bg-[#E9D8FD] text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
-            /> */}
+            
             <RotatingText
               texts={['Clutter Free', 'Clutter Free', 'Clutter Free', 'Clutter Free']}
               mainClassName="px-2 sm:px-2 md:px-3 bg-[#E9D8FD] text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg inline-flex items-center px-2 sm:px-2 md:px-3 bg-[#E9D8FD] text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="py-5 px-6 md:px-12 lg:px-16 flex items-center justify-between">
       <div className="flex items-center">
-        <Link to="/" className="text-xl font-semibold">talanoa</Link>
+        <Link to="/" className="text-xl font-semibold">Talanoa</Link>
       </div>
       
       <div className="hidden md:flex items-center space-x-8">
@@ -26,11 +26,11 @@ const Header = () => {
           {/* Dropdown could be added here */}
         </div>
         
-        <Link to="/pricing" className="text-sm font-medium">
+        <Link to="/#" className="text-sm font-medium">
           Pricing
         </Link>
         
-        <Link to="/story" className="text-sm font-medium">
+        <Link to="/#" className="text-sm font-medium">
           Story
         </Link>
       </div>

@@ -63,7 +63,7 @@ const HeroSection = () => {
       <img 
         src={notificationImage}
         alt="Notification Image" 
-        className="w-[40%] mt-8 md:mt-0 lg:w-[50%] xl:w-[60%] h-auto object-cover rounded-lg shadow-lg"
+        className="w-[100%] mt-8 md:mt-0 lg:w-[50%] xl:w-[60%] h-auto object-cover rounded-lg shadow-lg"
         style={{ maxWidth: isMobile ? "100%" : "100%" }} // Adjust the maxWidth based on mobile state
       />
       </div>

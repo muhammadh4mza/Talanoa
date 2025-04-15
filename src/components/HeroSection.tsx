@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { useIsMobile } from "@/hooks/use-mobile";
-import notificationImage from "@/assests/images/notification.png";
+import notificationImage from "@/assests/images/Email_Notification_inbox.png";
 import RotatingText from "../../components/RotatingText/RotatingText";
 
 const HeroSection = () => {

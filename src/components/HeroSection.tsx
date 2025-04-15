@@ -59,11 +59,14 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <div className="w-full h-full object-cover flex flex-col items-center justify-center">
       <img 
         src={notificationImage}
         alt="Notification Image" 
-        className="w-full mt-8"
+        className="w-[40%] mt-8 md:mt-0 lg:w-[50%] xl:w-[60%] h-auto object-cover rounded-lg shadow-lg"
+        style={{ maxWidth: isMobile ? "100%" : "100%" }} // Adjust the maxWidth based on mobile state
       />
+      </div>
     </section>
   );
 };

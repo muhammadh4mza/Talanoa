@@ -1,45 +1,86 @@
-**Use your preferred IDE**
+# Talanoa
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in the project.
+Talanoa is the first inbox designed around people. Cut the noise, focus only on what matters.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Overview
 
-Follow these steps:
+Talanoa is an innovative email application that reimagines how we interact with our inbox by prioritizing human connections and meaningful communications.
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm (Install using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+
+### Installation
+
+1. Clone the repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <your git urls>
+git clone <your repository URL>
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Navigate to the project directory
+```sh
+cd talanoa
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Install dependencies
+```sh
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Development Options
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 1. Local Development
+Work locally using your preferred IDE. Clone the repo and push changes as needed.
 
-**Use GitHub Codespaces**
+### 2. GitHub Web Editor
+- Navigate to the desired files
+- Click the "Edit" button (pencil icon)
+- Make and commit your changes directly
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 3. GitHub Codespaces
+- Go to the main repository page
+- Click "Code" (green button)
+- Select "Codespaces" tab
+- Click "New codespace"
+- Edit, commit, and push your changes in the Codespace environment
 
-## What technologies are used for this project?
+## Technology Stack
 
-This project is built with:
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn-ui
+- **Package Manager**: npm
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Project Structure
+
+```
+├── components/         # Reusable UI components
+├── public/            # Static assets
+├── src/
+│   ├── assets/       # Images and media files
+│   ├── components/   # React components
+│   ├── hooks/        # Custom React hooks
+│   ├── lib/          # Utility functions
+│   └── pages/        # Application pages
+```
+
+## Features
+
+- Modern, responsive design
+- Mobile-friendly interface
+- Fast development environment with Vite
+- Type-safe development with TypeScript
+- Custom UI components with shadcn-ui
+- Utility-first CSS with Tailwind
+
+## Contributing
+
+We welcome contributions! Please feel free to submit pull requests.

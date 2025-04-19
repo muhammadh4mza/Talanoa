@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { useIsMobile } from "@/hooks/use-mobile";
 import notificationImage from "@/assets/images/Email_Notification_inbox.png";
